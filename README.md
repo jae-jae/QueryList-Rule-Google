@@ -32,7 +32,7 @@ $ql->use(Google::class,'google');
 ```
 - Example-1
 
-```
+```php
 $google = $ql->google(10)
 $searcher = $google->search('QueryList');
 $count = $searcher->getCount();
@@ -49,7 +49,7 @@ for ($page = 1; $page <= $countPage; $page++)
 
 - Example-2
 
-```
+```php
 $searcher = $ql->google()->search('QueryList');
 $data = $searcher->setHttpOpt([
     // Set the http proxy
@@ -62,7 +62,7 @@ print_r($data->all());
 
 - Example-3
 
-```
+```php
 $data= $searcher = $ql->google(3)->search('QueryList')->page(1);
 print_r($data->all());
 ```
