@@ -1,7 +1,9 @@
 # QueryList-Rule-Google
-QueryList Plugin: Google searcher.
+QueryList Plugin: Google searcher,Google Search Engine Scraper in PHP,Crawl Google search results.
 
 QueryList插件：谷歌搜索引擎
+
+> QueryList:[https://github.com/jae-jae/QueryList](https://github.com/jae-jae/QueryList)
 
 ## Installation for QueryList4
 ```
